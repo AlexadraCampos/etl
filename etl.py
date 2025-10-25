@@ -4,7 +4,7 @@ import pandas as pd
 #extrai os dados
 dados = pd.read_csv('dados.csv')
 
-#trnasfoma os dados
+#trasforma os dados
 dados = dados.dropna()  # remove linhas com valores nulos
 dados[ 'coluna'] = dados['coluna'].astype(str) 
 
